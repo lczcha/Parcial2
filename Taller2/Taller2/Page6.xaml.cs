@@ -12,15 +12,13 @@ namespace Taller2
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Page6 : ContentPage
 	{
-		public Page6 ()
+		public Page6 (string email)
 		{
 			InitializeComponent ();
-		}
-
-
-        public Page6(String u)
-        {
-            email.Text = u;
+            emai.Text = email;
         }
+
+
+        
     }
 }

@@ -22,9 +22,11 @@ namespace Taller2
         private async void Btnrpa_Click(object sender, EventArgs e)
         {
 
-            String emai = botxemail.Text;
-           await Navigation.PushAsync(new Page6(emai));
+            String email = botxemail.Text;
+           await Navigation.PushAsync(new Page6(email));
 
         }
+
+      
     }
 }
