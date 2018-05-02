@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Taller2.Page6">
+    <StackLayout Orientation="Vertical" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               Margin="10"
+               WidthRequest="500">
+        <Label Text="Hemos enviado un mensaje con tu nueva contraseña al correo electronico"></Label>
+        <Entry x:Name="email"></Entry>
+        <Button Text="Login"/>
+    </StackLayout>
+
+</ContentPage>

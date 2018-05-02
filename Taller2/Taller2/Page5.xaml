@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Taller2.Page5">
+    
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+        <Image Source="icono.png"/>
+        <Button x:Name="btn" Text="Probar" Clicked="btn1_click"/>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+            <Label Text="Cód"/>
+            <Label Text="Nombre"/>
+            <Label Text="Contraseña"/>
+        </StackLayout>
+        <ListView x:Name="lstUsuarios">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding codigo}"/>
+                            <Label Text="{Binding nombre}"/>
+                            <Label Text="{Binding correo}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+</ContentPage>

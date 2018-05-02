@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Taller2.Page3">
+    
+    <StackLayout Orientation="Vertical" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               Margin="10"
+               WidthRequest="500">
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="Start"
+                     Margin="5"
+                     Spacing="20"
+                     HorizontalOptions="Center">
+            <Label Text="SIGN UP FORM" ></Label>
+
+        </StackLayout>
+        <Label Text="First name"></Label>
+        <Entry></Entry>
+        <Label Text="Last name"></Label>
+        <Entry></Entry>
+        <Label Text="Email"></Label>
+        <Entry></Entry>
+        <Label Text="Password"></Label>
+        <Entry></Entry>
+        <Label Text="Confirm Password"></Label>
+        <Entry></Entry>
+        <Button Text="Register"/>
+        <Button Text="I already have an account" x:Name="btniahaa" Clicked="Btniaha_Click"/>
+    </StackLayout>
+</ContentPage>

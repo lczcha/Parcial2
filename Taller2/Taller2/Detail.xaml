@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Taller2.Detail"
+              Title="Inicio">
+
+    <StackLayout Orientation="Vertical" 
+              >
+
+        <Image Source="https://thumbs.dreamstime.com/b/summer-fields-banner-illustration-beautiful-green-farm-landscape-54093409.jpg"/>
+
+        <StackLayout Orientation="Horizontal" 
+                       HorizontalOptions="Center"
+              >
+
+            <StackLayout Orientation="Vertical" 
+               Margin="10"
+                     Spacing="30"
+              >
+
+                <StackLayout Orientation="Horizontal"
+                              Margin="5"
+                     Spacing="20">
+                    <Label Text="Cuy Asado"/>
+                    <Label Text="Papas + Aji"/>
+                    <Label Text="$30000"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                              Margin="5"
+                     Spacing="20">
+                    <Label Text="Pollo Asado"/>
+                    <Label Text="Papas + Aji"/>
+                    <Label Text="$22000"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                             Margin="5"
+                     Spacing="20">
+                    <Label Text="Conejo Asado"/>
+                    <Label Text="Papas"/>
+                    <Label Text="$28000"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                             Margin="5"
+                     Spacing="20">
+                    <Label Text="Pollo Broaster"/>
+                    <Label Text="Papas + Aji"/>
+                    <Label Text="$20000"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical"  HorizontalOptions="End"  VerticalOptions="End"
+                     Margin="5"
+                     Spacing="20"
+               >
+                <Image Source="https://image.freepik.com/iconos-gratis/cesta-de-la-compra-de-diseno-a-cuadros_318-50865.jpg" WidthRequest="38"/>
+                <Image Source="https://image.freepik.com/iconos-gratis/cesta-de-la-compra-de-diseno-a-cuadros_318-50865.jpg" WidthRequest="38"/>
+                <Image Source="https://image.freepik.com/iconos-gratis/cesta-de-la-compra-de-diseno-a-cuadros_318-50865.jpg" WidthRequest="38"/>
+                <Image Source="https://image.freepik.com/iconos-gratis/cesta-de-la-compra-de-diseno-a-cuadros_318-50865.jpg" WidthRequest="38"/>
+            </StackLayout>
+
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" 
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Margin="80"
+                     Spacing="20">
+            <Image Source="http://cdn.onlinewebfonts.com/svg/img_70457.png" WidthRequest="20"/>
+            <Image Source="http://www.myiconfinder.com/uploads/iconsets/256-256-e797e8a571bcb53e2468922566d5095a.png" WidthRequest="20"/>
+            <Image Source="https://d30y9cdsu7xlg0.cloudfront.net/png/3893-200.png" WidthRequest="20"/>
+            <Image Source="https://image.freepik.com/freie-ikonen/vorspulen_318-9340.jpg" WidthRequest="20"/>
+            <Image Source="http://www.free-icons-download.net/images/last-button-icon-76957.png" WidthRequest="20"/>
+        </StackLayout>
+
+
+    </StackLayout>
+
+</ContentPage>
